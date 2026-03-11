@@ -61,7 +61,7 @@ $groups += @(
 $firstNames = @("James","Mary","Robert","Patricia","John","Jennifer","Michael","Linda","William","Elizabeth")
 $lastNames = @("Smith","Johnson","Williams","Brown","Jones","Garcia","Miller","Davis","Rodriguez","Martinez")
 
-$totalUsers = 950
+$totalUsers = 100
 $usersPerDeptBase = [int]($totalUsers / $departments.Count)
 $remainderUsers = $totalUsers % $departments.Count
 
